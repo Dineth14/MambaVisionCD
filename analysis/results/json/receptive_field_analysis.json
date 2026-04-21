@@ -1,0 +1,143 @@
+{
+  "model_id": "nvidia/MambaVision-T-1K",
+  "stage_comparison": [
+    {
+      "stage": 1,
+      "feature_shape": [
+        1,
+        160,
+        28,
+        28
+      ],
+      "theoretical": {
+        "theoretical_rf": 31,
+        "effective_stride": 8,
+        "last_conv": "model.levels.0.downsample.reduction.0"
+      },
+      "effective_energy_radii": {
+        "r50": 6.670832032063167,
+        "r75": 9.82344135219425,
+        "r90": 12.747548783981962
+      },
+      "active_area_threshold_5pct": 365
+    },
+    {
+      "stage": 2,
+      "feature_shape": [
+        1,
+        320,
+        14,
+        14
+      ],
+      "theoretical": {
+        "theoretical_rf": 143,
+        "effective_stride": 16,
+        "last_conv": "model.levels.1.downsample.reduction.0"
+      },
+      "effective_energy_radii": {
+        "r50": 19.03943276465977,
+        "r75": 27.721832551258224,
+        "r90": 36.09016486523718
+      },
+      "active_area_threshold_5pct": 2345
+    },
+    {
+      "stage": 3,
+      "feature_shape": [
+        1,
+        640,
+        7,
+        7
+      ],
+      "theoretical": {
+        "theoretical_rf": 175,
+        "effective_stride": 32,
+        "last_conv": "model.levels.2.downsample.reduction.0"
+      },
+      "effective_energy_radii": {
+        "r50": 40.18084120572888,
+        "r75": 71.78091668403239,
+        "r90": 104.03124530639822
+      },
+      "active_area_threshold_5pct": 2579
+    },
+    {
+      "stage": 4,
+      "feature_shape": [
+        1,
+        640,
+        7,
+        7
+      ],
+      "theoretical": {},
+      "effective_energy_radii": {
+        "r50": 36.776351096866584,
+        "r75": 63.186232677696495,
+        "r90": 100.37180879111425
+      },
+      "active_area_threshold_5pct": 4248
+    }
+  ],
+  "ssm_vs_attention": [
+    {
+      "name": "model.levels.2.blocks.0.mixer",
+      "type": "SSM",
+      "r90_pixels": 111.5011210705973,
+      "active_area_threshold_5pct": 1299,
+      "interpretation": "global-leaning"
+    },
+    {
+      "name": "model.levels.2.blocks.1.mixer",
+      "type": "SSM",
+      "r90_pixels": 111.14180131705622,
+      "active_area_threshold_5pct": 2064,
+      "interpretation": "global-leaning"
+    },
+    {
+      "name": "model.levels.2.blocks.2.mixer",
+      "type": "SSM",
+      "r90_pixels": 110.60967407962109,
+      "active_area_threshold_5pct": 2727,
+      "interpretation": "global-leaning"
+    },
+    {
+      "name": "model.levels.2.blocks.3.mixer",
+      "type": "SSM",
+      "r90_pixels": 111.68930118860982,
+      "active_area_threshold_5pct": 3478,
+      "interpretation": "global-leaning"
+    },
+    {
+      "name": "model.levels.2.blocks.4.mixer",
+      "type": "Attention",
+      "r90_pixels": 138.47201883413126,
+      "active_area_threshold_5pct": 2265,
+      "interpretation": "global-leaning"
+    },
+    {
+      "name": "model.levels.2.blocks.5.mixer",
+      "type": "Attention",
+      "r90_pixels": 135.95035858724316,
+      "active_area_threshold_5pct": 1982,
+      "interpretation": "global-leaning"
+    },
+    {
+      "name": "model.levels.2.blocks.6.mixer",
+      "type": "Attention",
+      "r90_pixels": 131.12017388640086,
+      "active_area_threshold_5pct": 4194,
+      "interpretation": "global-leaning"
+    },
+    {
+      "name": "model.levels.2.blocks.7.mixer",
+      "type": "Attention",
+      "r90_pixels": 130.15567601914256,
+      "active_area_threshold_5pct": 5195,
+      "interpretation": "global-leaning"
+    }
+  ],
+  "figures": [
+    "analysis/results/figures/erf_per_stage.png",
+    "analysis/results/figures/erf_contour_overlay.png"
+  ]
+}

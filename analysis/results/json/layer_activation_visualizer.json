@@ -1,0 +1,44 @@
+{
+  "test_images": [
+    "natural",
+    "aerial",
+    "texture",
+    "noise",
+    "blank"
+  ],
+  "mixer_branch_summaries": [
+    {
+      "name": "model.levels.2.blocks.0.mixer",
+      "mean_feature_correlation": 0.00421946682035923,
+      "ssm_variance": 0.02094026282429695,
+      "symmetric_variance": 0.019031286239624023
+    }
+  ],
+  "figures": [
+    "analysis/results/figures/stem_activation_grid.png",
+    "analysis/results/figures/downsample_input_channels.png",
+    "analysis/results/figures/downsample_output_channels.png",
+    "analysis/results/figures/ssm_branch_violin.png",
+    "analysis/results/figures/symmetric_branch_violin.png",
+    "analysis/results/figures/branch_concatenation_map.png",
+    "analysis/results/figures/attention_maps_stage3_head0.png",
+    "analysis/results/figures/attention_maps_stage3_head1.png",
+    "analysis/results/figures/attention_maps_stage3_head2.png",
+    "analysis/results/figures/attention_maps_stage3_head3.png",
+    "analysis/results/figures/attention_maps_stage3_head4.png",
+    "analysis/results/figures/attention_maps_stage3_head5.png",
+    "analysis/results/figures/attention_maps_stage3_head6.png",
+    "analysis/results/figures/attention_maps_stage3_head7.png",
+    "analysis/results/figures/attention_maps_stage4_head0.png",
+    "analysis/results/figures/attention_maps_stage4_head1.png",
+    "analysis/results/figures/attention_maps_stage4_head2.png",
+    "analysis/results/figures/attention_maps_stage4_head3.png",
+    "analysis/results/figures/attention_maps_stage4_head4.png",
+    "analysis/results/figures/attention_maps_stage4_head5.png",
+    "analysis/results/figures/attention_maps_stage4_head6.png",
+    "analysis/results/figures/attention_maps_stage4_head7.png",
+    "analysis/results/figures/mlp_pre_post_distribution.png",
+    "analysis/results/figures/avgpool_feature_pca.png",
+    "analysis/results/figures/layer_function_summary.png"
+  ]
+}

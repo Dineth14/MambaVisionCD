@@ -1,0 +1,96 @@
+{
+  "selective_scan_input_dependence": {
+    "mixer": "model.levels.2.blocks.0.mixer",
+    "mean_abs_delta_difference_two_inputs": 0.14959712326526642,
+    "mean_abs_B_difference_two_inputs": 0.5500272512435913,
+    "mean_abs_C_difference_two_inputs": 0.5691877603530884,
+    "verified": true
+  },
+  "symmetric_branch_non_causal_convolution": {
+    "ssm_branch_conv1d_x": {
+      "center_output_from_future_impulse_abs_mean": 0.08293261379003525,
+      "future_access_detected": true
+    },
+    "symmetric_branch_conv1d_z": {
+      "center_output_from_future_impulse_abs_mean": 0.0648721382021904,
+      "future_access_detected": true
+    },
+    "interpretation": "padding='same' depthwise Conv1d lets output token t depend on token t+1, so this is regular/non-causal local mixing."
+  },
+  "concatenation_fusion": {
+    "mixer": "model.levels.2.blocks.0.mixer",
+    "ssm_branch_channels": 160,
+    "symmetric_branch_channels": 160,
+    "concatenated_channels": 320,
+    "out_proj_in_features": 320,
+    "verified_concat_before_projection": true,
+    "ssm_entropy_bits": 4.716684537402211,
+    "symmetric_entropy_bits": 4.5841510549068545
+  },
+  "stage_resolution_reduction": [
+    {
+      "stage": 1,
+      "shape": [
+        1,
+        80,
+        56,
+        56
+      ],
+      "resolution": [
+        56,
+        56
+      ],
+      "channels": 80
+    },
+    {
+      "stage": 2,
+      "shape": [
+        1,
+        160,
+        28,
+        28
+      ],
+      "resolution": [
+        28,
+        28
+      ],
+      "channels": 160
+    },
+    {
+      "stage": 3,
+      "shape": [
+        1,
+        320,
+        14,
+        14
+      ],
+      "resolution": [
+        14,
+        14
+      ],
+      "channels": 320
+    },
+    {
+      "stage": 4,
+      "shape": [
+        1,
+        640,
+        7,
+        7
+      ],
+      "resolution": [
+        7,
+        7
+      ],
+      "channels": 640
+    }
+  ],
+  "throughput": {
+    "batch_size": 32,
+    "passes": 100,
+    "elapsed_seconds": 7.912851103814319,
+    "images_per_second": 404.4054359189785,
+    "device": "cuda"
+  },
+  "claimed_pareto_front_note": "Compare measured images/s with the throughput table in the MambaVision paper for matching hardware and precision."
+}

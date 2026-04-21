@@ -1,0 +1,993 @@
+{
+  "stimuli": [
+    "flat",
+    "horizontal_step",
+    "vertical_step",
+    "diagonal_45_step",
+    "diagonal_135_step",
+    "vertical_blur_sigma_1",
+    "vertical_blur_sigma_3",
+    "vertical_blur_sigma_5",
+    "vertical_ramp",
+    "horizontal_ramp",
+    "diagonal_ramp",
+    "thin_vertical_line",
+    "checker_edge_texture"
+  ],
+  "ranked_layers": [
+    {
+      "layer": "model.levels.0.downsample.reduction.0",
+      "class": "Conv2d",
+      "stimuli": {
+        "flat": {
+          "mean_abs_activation": 0.042336683720350266,
+          "spatial_gradient_magnitude": 0.0006747136940248311,
+          "sobel_response": 0.0035995286889374256
+        },
+        "horizontal_step": {
+          "mean_abs_activation": 0.04554767161607742,
+          "spatial_gradient_magnitude": 0.0018760125385597348,
+          "sobel_response": 0.009744786657392979
+        },
+        "vertical_step": {
+          "mean_abs_activation": 0.04705566540360451,
+          "spatial_gradient_magnitude": 0.0016770489746704698,
+          "sobel_response": 0.008266051299870014
+        },
+        "diagonal_45_step": {
+          "mean_abs_activation": 0.05225151777267456,
+          "spatial_gradient_magnitude": 0.0030868903268128633,
+          "sobel_response": 0.008534600026905537
+        },
+        "diagonal_135_step": {
+          "mean_abs_activation": 0.05287768691778183,
+          "spatial_gradient_magnitude": 0.002662358107045293,
+          "sobel_response": 0.008630786091089249
+        },
+        "vertical_blur_sigma_1": {
+          "mean_abs_activation": 0.04939701408147812,
+          "spatial_gradient_magnitude": 0.0016870724502950907,
+          "sobel_response": 0.0075592766515910625
+        },
+        "vertical_blur_sigma_3": {
+          "mean_abs_activation": 0.04877949878573418,
+          "spatial_gradient_magnitude": 0.001669231103733182,
+          "sobel_response": 0.009598758071660995
+        },
+        "vertical_blur_sigma_5": {
+          "mean_abs_activation": 0.04938908666372299,
+          "spatial_gradient_magnitude": 0.0016010497929528356,
+          "sobel_response": 0.009951982647180557
+        },
+        "vertical_ramp": {
+          "mean_abs_activation": 0.04841551184654236,
+          "spatial_gradient_magnitude": 0.001140848034992814,
+          "sobel_response": 0.007666120771318674
+        },
+        "horizontal_ramp": {
+          "mean_abs_activation": 0.04850633442401886,
+          "spatial_gradient_magnitude": 0.001030992134474218,
+          "sobel_response": 0.005600130185484886
+        },
+        "diagonal_ramp": {
+          "mean_abs_activation": 0.051681455224752426,
+          "spatial_gradient_magnitude": 0.0014193778624758124,
+          "sobel_response": 0.00798767525702715
+        },
+        "thin_vertical_line": {
+          "mean_abs_activation": 0.04811587184667587,
+          "spatial_gradient_magnitude": 0.0017629035282880068,
+          "sobel_response": 0.008508757688105106
+        },
+        "checker_edge_texture": {
+          "mean_abs_activation": 0.12405857443809509,
+          "spatial_gradient_magnitude": 0.022221408784389496,
+          "sobel_response": 0.028892815113067627
+        }
+      },
+      "edge_response_mean": 0.04943313542753458,
+      "flat_response": 0.042336683720350266,
+      "edge_selectivity_index": 0.07732881870096339
+    },
+    {
+      "layer": "model.levels.1.downsample.reduction.0",
+      "class": "Conv2d",
+      "stimuli": {
+        "flat": {
+          "mean_abs_activation": 0.29615941643714905,
+          "spatial_gradient_magnitude": 0.004694774746894836,
+          "sobel_response": 0.03605449199676514
+        },
+        "horizontal_step": {
+          "mean_abs_activation": 0.30808109045028687,
+          "spatial_gradient_magnitude": 0.007523845415562391,
+          "sobel_response": 0.05137578770518303
+        },
+        "vertical_step": {
+          "mean_abs_activation": 0.3126770853996277,
+          "spatial_gradient_magnitude": 0.00790122989565134,
+          "sobel_response": 0.05025198310613632
+        },
+        "diagonal_45_step": {
+          "mean_abs_activation": 0.34784600138664246,
+          "spatial_gradient_magnitude": 0.008547428995370865,
+          "sobel_response": 0.057307299226522446
+        },
+        "diagonal_135_step": {
+          "mean_abs_activation": 0.3503151834011078,
+          "spatial_gradient_magnitude": 0.009756704792380333,
+          "sobel_response": 0.05775182321667671
+        },
+        "vertical_blur_sigma_1": {
+          "mean_abs_activation": 0.34021514654159546,
+          "spatial_gradient_magnitude": 0.011017527431249619,
+          "sobel_response": 0.07599762082099915
+        },
+        "vertical_blur_sigma_3": {
+          "mean_abs_activation": 0.34815528988838196,
+          "spatial_gradient_magnitude": 0.01035990659147501,
+          "sobel_response": 0.06828365474939346
+        },
+        "vertical_blur_sigma_5": {
+          "mean_abs_activation": 0.346361368894577,
+          "spatial_gradient_magnitude": 0.008559034205973148,
+          "sobel_response": 0.055023595690727234
+        },
+        "vertical_ramp": {
+          "mean_abs_activation": 0.3313380479812622,
+          "spatial_gradient_magnitude": 0.007838779129087925,
+          "sobel_response": 0.055418528616428375
+        },
+        "horizontal_ramp": {
+          "mean_abs_activation": 0.3205763101577759,
+          "spatial_gradient_magnitude": 0.006728739012032747,
+          "sobel_response": 0.04699726030230522
+        },
+        "diagonal_ramp": {
+          "mean_abs_activation": 0.34839102625846863,
+          "spatial_gradient_magnitude": 0.00851134117692709,
+          "sobel_response": 0.05511074140667915
+        },
+        "thin_vertical_line": {
+          "mean_abs_activation": 0.32062649726867676,
+          "spatial_gradient_magnitude": 0.007266600150614977,
+          "sobel_response": 0.04784034192562103
+        },
+        "checker_edge_texture": {
+          "mean_abs_activation": 0.625237762928009,
+          "spatial_gradient_magnitude": 0.007644668221473694,
+          "sobel_response": 0.08956702798604965
+        }
+      },
+      "edge_response_mean": 0.3297298401594162,
+      "flat_response": 0.29615941643714905,
+      "edge_selectivity_index": 0.05363636357134708
+    },
+    {
+      "layer": "model.levels.1.blocks.0.conv2",
+      "class": "Conv2d",
+      "stimuli": {
+        "flat": {
+          "mean_abs_activation": 0.9307425618171692,
+          "spatial_gradient_magnitude": 0.008266676217317581,
+          "sobel_response": 0.0735168606042862
+        },
+        "horizontal_step": {
+          "mean_abs_activation": 0.9602113366127014,
+          "spatial_gradient_magnitude": 0.023155704140663147,
+          "sobel_response": 0.1450120061635971
+        },
+        "vertical_step": {
+          "mean_abs_activation": 0.963633120059967,
+          "spatial_gradient_magnitude": 0.02487240545451641,
+          "sobel_response": 0.14090648293495178
+        },
+        "diagonal_45_step": {
+          "mean_abs_activation": 1.0248099565505981,
+          "spatial_gradient_magnitude": 0.021420590579509735,
+          "sobel_response": 0.1073208823800087
+        },
+        "diagonal_135_step": {
+          "mean_abs_activation": 1.0114210844039917,
+          "spatial_gradient_magnitude": 0.030369291082024574,
+          "sobel_response": 0.13791397213935852
+        },
+        "vertical_blur_sigma_1": {
+          "mean_abs_activation": 0.9842336773872375,
+          "spatial_gradient_magnitude": 0.024055130779743195,
+          "sobel_response": 0.14995291829109192
+        },
+        "vertical_blur_sigma_3": {
+          "mean_abs_activation": 0.9914104342460632,
+          "spatial_gradient_magnitude": 0.020085064694285393,
+          "sobel_response": 0.11634829640388489
+        },
+        "vertical_blur_sigma_5": {
+          "mean_abs_activation": 0.9946381449699402,
+          "spatial_gradient_magnitude": 0.018830981105566025,
+          "sobel_response": 0.12235944718122482
+        },
+        "vertical_ramp": {
+          "mean_abs_activation": 0.9941185116767883,
+          "spatial_gradient_magnitude": 0.013018473982810974,
+          "sobel_response": 0.09244934469461441
+        },
+        "horizontal_ramp": {
+          "mean_abs_activation": 0.9648625254631042,
+          "spatial_gradient_magnitude": 0.014087849296629429,
+          "sobel_response": 0.10497917979955673
+        },
+        "diagonal_ramp": {
+          "mean_abs_activation": 1.0191391706466675,
+          "spatial_gradient_magnitude": 0.015941452234983444,
+          "sobel_response": 0.10444749891757965
+        },
+        "thin_vertical_line": {
+          "mean_abs_activation": 0.9649442434310913,
+          "spatial_gradient_magnitude": 0.022064758464694023,
+          "sobel_response": 0.12110758572816849
+        },
+        "checker_edge_texture": {
+          "mean_abs_activation": 1.3857996463775635,
+          "spatial_gradient_magnitude": 0.14681418240070343,
+          "sobel_response": 0.2160719484090805
+        }
+      },
+      "edge_response_mean": 0.9900188744068146,
+      "flat_response": 0.9307425618171692,
+      "edge_selectivity_index": 0.030860840639400568
+    },
+    {
+      "layer": "model.levels.1.blocks.2.conv1",
+      "class": "Conv2d",
+      "stimuli": {
+        "flat": {
+          "mean_abs_activation": 0.7321109175682068,
+          "spatial_gradient_magnitude": 0.013208982534706593,
+          "sobel_response": 0.09957713633775711
+        },
+        "horizontal_step": {
+          "mean_abs_activation": 0.7374650835990906,
+          "spatial_gradient_magnitude": 0.03818479925394058,
+          "sobel_response": 0.24605242908000946
+        },
+        "vertical_step": {
+          "mean_abs_activation": 0.7416202425956726,
+          "spatial_gradient_magnitude": 0.035354726016521454,
+          "sobel_response": 0.20615965127944946
+        },
+        "diagonal_45_step": {
+          "mean_abs_activation": 0.7730768322944641,
+          "spatial_gradient_magnitude": 0.07429447770118713,
+          "sobel_response": 0.4974936544895172
+        },
+        "diagonal_135_step": {
+          "mean_abs_activation": 0.7803364396095276,
+          "spatial_gradient_magnitude": 0.0823611319065094,
+          "sobel_response": 0.4901175796985626
+        },
+        "vertical_blur_sigma_1": {
+          "mean_abs_activation": 0.7677985429763794,
+          "spatial_gradient_magnitude": 0.035844836384058,
+          "sobel_response": 0.23379188776016235
+        },
+        "vertical_blur_sigma_3": {
+          "mean_abs_activation": 0.7726843953132629,
+          "spatial_gradient_magnitude": 0.040851011872291565,
+          "sobel_response": 0.26051363348960876
+        },
+        "vertical_blur_sigma_5": {
+          "mean_abs_activation": 0.767458975315094,
+          "spatial_gradient_magnitude": 0.03336158022284508,
+          "sobel_response": 0.20923766493797302
+        },
+        "vertical_ramp": {
+          "mean_abs_activation": 0.7502543926239014,
+          "spatial_gradient_magnitude": 0.029341978952288628,
+          "sobel_response": 0.178065687417984
+        },
+        "horizontal_ramp": {
+          "mean_abs_activation": 0.7378398180007935,
+          "spatial_gradient_magnitude": 0.020835092291235924,
+          "sobel_response": 0.13534490764141083
+        },
+        "diagonal_ramp": {
+          "mean_abs_activation": 0.755767285823822,
+          "spatial_gradient_magnitude": 0.0305740088224411,
+          "sobel_response": 0.17955026030540466
+        },
+        "thin_vertical_line": {
+          "mean_abs_activation": 0.7476403117179871,
+          "spatial_gradient_magnitude": 0.03935451805591583,
+          "sobel_response": 0.24479363858699799
+        },
+        "checker_edge_texture": {
+          "mean_abs_activation": 0.8897511959075928,
+          "spatial_gradient_magnitude": 0.18556977808475494,
+          "sobel_response": 0.41294020414352417
+        }
+      },
+      "edge_response_mean": 0.7581246495246887,
+      "flat_response": 0.7321109175682068,
+      "edge_selectivity_index": 0.017456120717351583
+    },
+    {
+      "layer": "model.levels.2.downsample.reduction.0",
+      "class": "Conv2d",
+      "stimuli": {
+        "flat": {
+          "mean_abs_activation": 3.011380672454834,
+          "spatial_gradient_magnitude": 0.3388565182685852,
+          "sobel_response": 1.4313926696777344
+        },
+        "horizontal_step": {
+          "mean_abs_activation": 3.0482399463653564,
+          "spatial_gradient_magnitude": 0.3345988094806671,
+          "sobel_response": 1.3870452642440796
+        },
+        "vertical_step": {
+          "mean_abs_activation": 2.9907124042510986,
+          "spatial_gradient_magnitude": 0.3668566942214966,
+          "sobel_response": 1.419946551322937
+        },
+        "diagonal_45_step": {
+          "mean_abs_activation": 3.2102975845336914,
+          "spatial_gradient_magnitude": 0.3482152819633484,
+          "sobel_response": 1.3149867057800293
+        },
+        "diagonal_135_step": {
+          "mean_abs_activation": 3.193574905395508,
+          "spatial_gradient_magnitude": 0.3448110520839691,
+          "sobel_response": 1.2990927696228027
+        },
+        "vertical_blur_sigma_1": {
+          "mean_abs_activation": 3.14131236076355,
+          "spatial_gradient_magnitude": 0.3543838560581207,
+          "sobel_response": 1.3566017150878906
+        },
+        "vertical_blur_sigma_3": {
+          "mean_abs_activation": 3.472264528274536,
+          "spatial_gradient_magnitude": 0.3364650011062622,
+          "sobel_response": 1.4671368598937988
+        },
+        "vertical_blur_sigma_5": {
+          "mean_abs_activation": 3.659195899963379,
+          "spatial_gradient_magnitude": 0.35089096426963806,
+          "sobel_response": 1.5697165727615356
+        },
+        "vertical_ramp": {
+          "mean_abs_activation": 3.7251906394958496,
+          "spatial_gradient_magnitude": 0.32392609119415283,
+          "sobel_response": 1.4185802936553955
+        },
+        "horizontal_ramp": {
+          "mean_abs_activation": 3.5499255657196045,
+          "spatial_gradient_magnitude": 0.3850994408130646,
+          "sobel_response": 1.5302830934524536
+        },
+        "diagonal_ramp": {
+          "mean_abs_activation": 4.049501419067383,
+          "spatial_gradient_magnitude": 0.3853209912776947,
+          "sobel_response": 1.5313568115234375
+        },
+        "thin_vertical_line": {
+          "mean_abs_activation": 2.9913299083709717,
+          "spatial_gradient_magnitude": 0.34037187695503235,
+          "sobel_response": 1.321340560913086
+        },
+        "checker_edge_texture": {
+          "mean_abs_activation": 3.8539021015167236,
+          "spatial_gradient_magnitude": 0.3556373715400696,
+          "sobel_response": 1.472607135772705
+        }
+      },
+      "edge_response_mean": 3.1107062101364136,
+      "flat_response": 3.011380672454834,
+      "edge_selectivity_index": 0.016224130690468512
+    },
+    {
+      "layer": "model.patch_embed.conv_down.3",
+      "class": "Conv2d",
+      "stimuli": {
+        "flat": {
+          "mean_abs_activation": 0.5555742383003235,
+          "spatial_gradient_magnitude": 0.006711723282933235,
+          "sobel_response": 0.11696991324424744
+        },
+        "horizontal_step": {
+          "mean_abs_activation": 0.5653521418571472,
+          "spatial_gradient_magnitude": 0.02197524905204773,
+          "sobel_response": 0.17773959040641785
+        },
+        "vertical_step": {
+          "mean_abs_activation": 0.5656400918960571,
+          "spatial_gradient_magnitude": 0.021800898015499115,
+          "sobel_response": 0.17716090381145477
+        },
+        "diagonal_45_step": {
+          "mean_abs_activation": 0.5688918232917786,
+          "spatial_gradient_magnitude": 0.02644713595509529,
+          "sobel_response": 0.1911938488483429
+        },
+        "diagonal_135_step": {
+          "mean_abs_activation": 0.583526611328125,
+          "spatial_gradient_magnitude": 0.027570465579628944,
+          "sobel_response": 0.20233000814914703
+        },
+        "vertical_blur_sigma_1": {
+          "mean_abs_activation": 0.562892496585846,
+          "spatial_gradient_magnitude": 0.012653195299208164,
+          "sobel_response": 0.1432894915342331
+        },
+        "vertical_blur_sigma_3": {
+          "mean_abs_activation": 0.5589335560798645,
+          "spatial_gradient_magnitude": 0.007812817580997944,
+          "sobel_response": 0.1284283995628357
+        },
+        "vertical_blur_sigma_5": {
+          "mean_abs_activation": 0.5569570064544678,
+          "spatial_gradient_magnitude": 0.005761087406426668,
+          "sobel_response": 0.1236645057797432
+        },
+        "vertical_ramp": {
+          "mean_abs_activation": 0.5547937154769897,
+          "spatial_gradient_magnitude": 0.004568417090922594,
+          "sobel_response": 0.10989698767662048
+        },
+        "horizontal_ramp": {
+          "mean_abs_activation": 0.5504475235939026,
+          "spatial_gradient_magnitude": 0.006026159040629864,
+          "sobel_response": 0.11483819037675858
+        },
+        "diagonal_ramp": {
+          "mean_abs_activation": 0.547517716884613,
+          "spatial_gradient_magnitude": 0.002483597258105874,
+          "sobel_response": 0.1002843901515007
+        },
+        "thin_vertical_line": {
+          "mean_abs_activation": 0.5687584280967712,
+          "spatial_gradient_magnitude": 0.025158224627375603,
+          "sobel_response": 0.21720653772354126
+        },
+        "checker_edge_texture": {
+          "mean_abs_activation": 0.9370490312576294,
+          "spatial_gradient_magnitude": 0.32504791021347046,
+          "sobel_response": 1.359295129776001
+        }
+      },
+      "edge_response_mean": 0.570852667093277,
+      "flat_response": 0.5555742383003235,
+      "edge_selectivity_index": 0.013563622033336711
+    },
+    {
+      "layer": "model.levels.1.blocks.1.conv1",
+      "class": "Conv2d",
+      "stimuli": {
+        "flat": {
+          "mean_abs_activation": 0.736333429813385,
+          "spatial_gradient_magnitude": 0.007197867147624493,
+          "sobel_response": 0.18948212265968323
+        },
+        "horizontal_step": {
+          "mean_abs_activation": 0.741306483745575,
+          "spatial_gradient_magnitude": 0.03245731070637703,
+          "sobel_response": 0.3557465076446533
+        },
+        "vertical_step": {
+          "mean_abs_activation": 0.7416229844093323,
+          "spatial_gradient_magnitude": 0.03516850247979164,
+          "sobel_response": 0.34299924969673157
+        },
+        "diagonal_45_step": {
+          "mean_abs_activation": 0.7661208510398865,
+          "spatial_gradient_magnitude": 0.06120499595999718,
+          "sobel_response": 0.506951630115509
+        },
+        "diagonal_135_step": {
+          "mean_abs_activation": 0.7676021456718445,
+          "spatial_gradient_magnitude": 0.07631690055131912,
+          "sobel_response": 0.5196245312690735
+        },
+        "vertical_blur_sigma_1": {
+          "mean_abs_activation": 0.7629254460334778,
+          "spatial_gradient_magnitude": 0.03797989338636398,
+          "sobel_response": 0.36641985177993774
+        },
+        "vertical_blur_sigma_3": {
+          "mean_abs_activation": 0.7649502158164978,
+          "spatial_gradient_magnitude": 0.029434723779559135,
+          "sobel_response": 0.2927995026111603
+        },
+        "vertical_blur_sigma_5": {
+          "mean_abs_activation": 0.7533608675003052,
+          "spatial_gradient_magnitude": 0.027527492493391037,
+          "sobel_response": 0.2610199749469757
+        },
+        "vertical_ramp": {
+          "mean_abs_activation": 0.7329414486885071,
+          "spatial_gradient_magnitude": 0.014342778362333775,
+          "sobel_response": 0.2244604080915451
+        },
+        "horizontal_ramp": {
+          "mean_abs_activation": 0.7349939346313477,
+          "spatial_gradient_magnitude": 0.012278887443244457,
+          "sobel_response": 0.21972554922103882
+        },
+        "diagonal_ramp": {
+          "mean_abs_activation": 0.7322003841400146,
+          "spatial_gradient_magnitude": 0.01722523383796215,
+          "sobel_response": 0.2330244779586792
+        },
+        "thin_vertical_line": {
+          "mean_abs_activation": 0.7508832216262817,
+          "spatial_gradient_magnitude": 0.03294527530670166,
+          "sobel_response": 0.3579244613647461
+        },
+        "checker_edge_texture": {
+          "mean_abs_activation": 0.900461733341217,
+          "spatial_gradient_magnitude": 0.10339022427797318,
+          "sobel_response": 0.34848177433013916
+        }
+      },
+      "edge_response_mean": 0.7541631162166595,
+      "flat_response": 0.736333429813385,
+      "edge_selectivity_index": 0.011962246038578322
+    },
+    {
+      "layer": "model.levels.1.blocks.0.conv1",
+      "class": "Conv2d",
+      "stimuli": {
+        "flat": {
+          "mean_abs_activation": 0.773128867149353,
+          "spatial_gradient_magnitude": 0.006954292766749859,
+          "sobel_response": 0.2893891930580139
+        },
+        "horizontal_step": {
+          "mean_abs_activation": 0.7757150530815125,
+          "spatial_gradient_magnitude": 0.025113660842180252,
+          "sobel_response": 0.37704214453697205
+        },
+        "vertical_step": {
+          "mean_abs_activation": 0.7793135046958923,
+          "spatial_gradient_magnitude": 0.026393700391054153,
+          "sobel_response": 0.41291630268096924
+        },
+        "diagonal_45_step": {
+          "mean_abs_activation": 0.7971619367599487,
+          "spatial_gradient_magnitude": 0.05806012824177742,
+          "sobel_response": 0.5696966052055359
+        },
+        "diagonal_135_step": {
+          "mean_abs_activation": 0.8074256777763367,
+          "spatial_gradient_magnitude": 0.07244362682104111,
+          "sobel_response": 0.5730383396148682
+        },
+        "vertical_blur_sigma_1": {
+          "mean_abs_activation": 0.7867727875709534,
+          "spatial_gradient_magnitude": 0.03182109072804451,
+          "sobel_response": 0.44018325209617615
+        },
+        "vertical_blur_sigma_3": {
+          "mean_abs_activation": 0.7869133949279785,
+          "spatial_gradient_magnitude": 0.017019012942910194,
+          "sobel_response": 0.34464091062545776
+        },
+        "vertical_blur_sigma_5": {
+          "mean_abs_activation": 0.7869960069656372,
+          "spatial_gradient_magnitude": 0.010085176676511765,
+          "sobel_response": 0.3072572350502014
+        },
+        "vertical_ramp": {
+          "mean_abs_activation": 0.7830288410186768,
+          "spatial_gradient_magnitude": 0.008933535777032375,
+          "sobel_response": 0.29937222599983215
+        },
+        "horizontal_ramp": {
+          "mean_abs_activation": 0.7687514424324036,
+          "spatial_gradient_magnitude": 0.00975177250802517,
+          "sobel_response": 0.30804383754730225
+        },
+        "diagonal_ramp": {
+          "mean_abs_activation": 0.7766974568367004,
+          "spatial_gradient_magnitude": 0.010446893982589245,
+          "sobel_response": 0.30679792165756226
+        },
+        "thin_vertical_line": {
+          "mean_abs_activation": 0.7834277749061584,
+          "spatial_gradient_magnitude": 0.03491048887372017,
+          "sobel_response": 0.4757363498210907
+        },
+        "checker_edge_texture": {
+          "mean_abs_activation": 0.9297502636909485,
+          "spatial_gradient_magnitude": 0.19821159541606903,
+          "sobel_response": 0.2565155029296875
+        }
+      },
+      "edge_response_mean": 0.7899040430784225,
+      "flat_response": 0.773128867149353,
+      "edge_selectivity_index": 0.010732452157142485
+    },
+    {
+      "layer": "model.patch_embed.conv_down.0",
+      "class": "Conv2d",
+      "stimuli": {
+        "flat": {
+          "mean_abs_activation": 0.032701730728149414,
+          "spatial_gradient_magnitude": 0.00019192964828107506,
+          "sobel_response": 0.0034539096523076296
+        },
+        "horizontal_step": {
+          "mean_abs_activation": 0.033254846930503845,
+          "spatial_gradient_magnitude": 0.001098891138099134,
+          "sobel_response": 0.008405848406255245
+        },
+        "vertical_step": {
+          "mean_abs_activation": 0.033234354108572006,
+          "spatial_gradient_magnitude": 0.0005306898965500295,
+          "sobel_response": 0.006134971976280212
+        },
+        "diagonal_45_step": {
+          "mean_abs_activation": 0.033045120537281036,
+          "spatial_gradient_magnitude": 0.0010953302262350917,
+          "sobel_response": 0.008094449527561665
+        },
+        "diagonal_135_step": {
+          "mean_abs_activation": 0.033875949680805206,
+          "spatial_gradient_magnitude": 0.001317863934673369,
+          "sobel_response": 0.008191974833607674
+        },
+        "vertical_blur_sigma_1": {
+          "mean_abs_activation": 0.03283422812819481,
+          "spatial_gradient_magnitude": 0.0005187278729863465,
+          "sobel_response": 0.006146532017737627
+        },
+        "vertical_blur_sigma_3": {
+          "mean_abs_activation": 0.03226782754063606,
+          "spatial_gradient_magnitude": 0.0005853670299984515,
+          "sobel_response": 0.006253320258110762
+        },
+        "vertical_blur_sigma_5": {
+          "mean_abs_activation": 0.03178125619888306,
+          "spatial_gradient_magnitude": 0.0006303362315520644,
+          "sobel_response": 0.006304852198809385
+        },
+        "vertical_ramp": {
+          "mean_abs_activation": 0.03292530030012131,
+          "spatial_gradient_magnitude": 0.0005261295009404421,
+          "sobel_response": 0.006089205387979746
+        },
+        "horizontal_ramp": {
+          "mean_abs_activation": 0.03285274654626846,
+          "spatial_gradient_magnitude": 0.00034705555299296975,
+          "sobel_response": 0.0054142712615430355
+        },
+        "diagonal_ramp": {
+          "mean_abs_activation": 0.03273415565490723,
+          "spatial_gradient_magnitude": 0.00045316413161344826,
+          "sobel_response": 0.006150604225695133
+        },
+        "thin_vertical_line": {
+          "mean_abs_activation": 0.003299701726064086,
+          "spatial_gradient_magnitude": 0.000688515487127006,
+          "sobel_response": 0.005434476304799318
+        },
+        "checker_edge_texture": {
+          "mean_abs_activation": 0.059825651347637177,
+          "spatial_gradient_magnitude": 0.017955003306269646,
+          "sobel_response": 0.09789499640464783
+        }
+      },
+      "edge_response_mean": 0.033352567814290524,
+      "flat_response": 0.032701730728149414,
+      "edge_selectivity_index": 0.009853061806614948
+    },
+    {
+      "layer": "model.levels.0.blocks.0.conv2",
+      "class": "Conv2d",
+      "stimuli": {
+        "flat": {
+          "mean_abs_activation": 2.9218928813934326,
+          "spatial_gradient_magnitude": 0.05917889252305031,
+          "sobel_response": 0.4089345932006836
+        },
+        "horizontal_step": {
+          "mean_abs_activation": 2.918881893157959,
+          "spatial_gradient_magnitude": 0.07437999546527863,
+          "sobel_response": 0.49136289954185486
+        },
+        "vertical_step": {
+          "mean_abs_activation": 2.93509840965271,
+          "spatial_gradient_magnitude": 0.06840051710605621,
+          "sobel_response": 0.443833589553833
+        },
+        "diagonal_45_step": {
+          "mean_abs_activation": 2.9758903980255127,
+          "spatial_gradient_magnitude": 0.09220003336668015,
+          "sobel_response": 0.5724572539329529
+        },
+        "diagonal_135_step": {
+          "mean_abs_activation": 2.9941699504852295,
+          "spatial_gradient_magnitude": 0.11849229782819748,
+          "sobel_response": 0.5273229479789734
+        },
+        "vertical_blur_sigma_1": {
+          "mean_abs_activation": 2.9502110481262207,
+          "spatial_gradient_magnitude": 0.07966893166303635,
+          "sobel_response": 0.4611329734325409
+        },
+        "vertical_blur_sigma_3": {
+          "mean_abs_activation": 2.933284044265747,
+          "spatial_gradient_magnitude": 0.061938002705574036,
+          "sobel_response": 0.4317661225795746
+        },
+        "vertical_blur_sigma_5": {
+          "mean_abs_activation": 2.9346160888671875,
+          "spatial_gradient_magnitude": 0.05914672836661339,
+          "sobel_response": 0.4168202579021454
+        },
+        "vertical_ramp": {
+          "mean_abs_activation": 2.9201483726501465,
+          "spatial_gradient_magnitude": 0.05924642086029053,
+          "sobel_response": 0.41858023405075073
+        },
+        "horizontal_ramp": {
+          "mean_abs_activation": 2.929029941558838,
+          "spatial_gradient_magnitude": 0.055077843368053436,
+          "sobel_response": 0.3928837478160858
+        },
+        "diagonal_ramp": {
+          "mean_abs_activation": 2.918299913406372,
+          "spatial_gradient_magnitude": 0.05729666352272034,
+          "sobel_response": 0.3939760625362396
+        },
+        "thin_vertical_line": {
+          "mean_abs_activation": 2.928973436355591,
+          "spatial_gradient_magnitude": 0.06119602546095848,
+          "sobel_response": 0.45773887634277344
+        },
+        "checker_edge_texture": {
+          "mean_abs_activation": 3.152174472808838,
+          "spatial_gradient_magnitude": 0.5192965865135193,
+          "sobel_response": 2.1770541667938232
+        }
+      },
+      "edge_response_mean": 2.956010162830353,
+      "flat_response": 2.9218928813934326,
+      "edge_selectivity_index": 0.005804328717269573
+    },
+    {
+      "layer": "model.levels.0.blocks.0.conv1",
+      "class": "Conv2d",
+      "stimuli": {
+        "flat": {
+          "mean_abs_activation": 0.6529183387756348,
+          "spatial_gradient_magnitude": 0.002821799134835601,
+          "sobel_response": 0.06320714205503464
+        },
+        "horizontal_step": {
+          "mean_abs_activation": 0.6529055237770081,
+          "spatial_gradient_magnitude": 0.006599141284823418,
+          "sobel_response": 0.0809602439403534
+        },
+        "vertical_step": {
+          "mean_abs_activation": 0.653548002243042,
+          "spatial_gradient_magnitude": 0.006389163434505463,
+          "sobel_response": 0.07916133850812912
+        },
+        "diagonal_45_step": {
+          "mean_abs_activation": 0.6535167098045349,
+          "spatial_gradient_magnitude": 0.009709484875202179,
+          "sobel_response": 0.0920308455824852
+        },
+        "diagonal_135_step": {
+          "mean_abs_activation": 0.6548590064048767,
+          "spatial_gradient_magnitude": 0.010289903730154037,
+          "sobel_response": 0.09181950986385345
+        },
+        "vertical_blur_sigma_1": {
+          "mean_abs_activation": 0.6539651155471802,
+          "spatial_gradient_magnitude": 0.004844902083277702,
+          "sobel_response": 0.07739698141813278
+        },
+        "vertical_blur_sigma_3": {
+          "mean_abs_activation": 0.6536527872085571,
+          "spatial_gradient_magnitude": 0.004427042324095964,
+          "sobel_response": 0.07509063184261322
+        },
+        "vertical_blur_sigma_5": {
+          "mean_abs_activation": 0.6535970568656921,
+          "spatial_gradient_magnitude": 0.004314560443162918,
+          "sobel_response": 0.07394608110189438
+        },
+        "vertical_ramp": {
+          "mean_abs_activation": 0.6541894674301147,
+          "spatial_gradient_magnitude": 0.0038833976723253727,
+          "sobel_response": 0.06870792806148529
+        },
+        "horizontal_ramp": {
+          "mean_abs_activation": 0.6527228951454163,
+          "spatial_gradient_magnitude": 0.003305610967800021,
+          "sobel_response": 0.06612516939640045
+        },
+        "diagonal_ramp": {
+          "mean_abs_activation": 0.6539607644081116,
+          "spatial_gradient_magnitude": 0.003693617647513747,
+          "sobel_response": 0.06851310282945633
+        },
+        "thin_vertical_line": {
+          "mean_abs_activation": 0.6535964608192444,
+          "spatial_gradient_magnitude": 0.007670484483242035,
+          "sobel_response": 0.09689471125602722
+        },
+        "checker_edge_texture": {
+          "mean_abs_activation": 0.6740052700042725,
+          "spatial_gradient_magnitude": 0.07371939718723297,
+          "sobel_response": 0.3742842376232147
+        }
+      },
+      "edge_response_mean": 0.6537073105573654,
+      "flat_response": 0.6529183387756348,
+      "edge_selectivity_index": 0.0006038238895224493
+    },
+    {
+      "layer": "model.levels.1.blocks.1.conv2",
+      "class": "Conv2d",
+      "stimuli": {
+        "flat": {
+          "mean_abs_activation": 0.8843899369239807,
+          "spatial_gradient_magnitude": 0.006842900067567825,
+          "sobel_response": 0.04222053661942482
+        },
+        "horizontal_step": {
+          "mean_abs_activation": 0.8843667507171631,
+          "spatial_gradient_magnitude": 0.011208741925656796,
+          "sobel_response": 0.06460852921009064
+        },
+        "vertical_step": {
+          "mean_abs_activation": 0.8853052258491516,
+          "spatial_gradient_magnitude": 0.010037210769951344,
+          "sobel_response": 0.05271619185805321
+        },
+        "diagonal_45_step": {
+          "mean_abs_activation": 0.8791354894638062,
+          "spatial_gradient_magnitude": 0.01492397766560316,
+          "sobel_response": 0.07377859950065613
+        },
+        "diagonal_135_step": {
+          "mean_abs_activation": 0.879011869430542,
+          "spatial_gradient_magnitude": 0.01611526496708393,
+          "sobel_response": 0.08524409681558609
+        },
+        "vertical_blur_sigma_1": {
+          "mean_abs_activation": 0.8803398609161377,
+          "spatial_gradient_magnitude": 0.011440281756222248,
+          "sobel_response": 0.06455046683549881
+        },
+        "vertical_blur_sigma_3": {
+          "mean_abs_activation": 0.8769083619117737,
+          "spatial_gradient_magnitude": 0.01388994138687849,
+          "sobel_response": 0.07607375085353851
+        },
+        "vertical_blur_sigma_5": {
+          "mean_abs_activation": 0.8783337473869324,
+          "spatial_gradient_magnitude": 0.012281753122806549,
+          "sobel_response": 0.07107138633728027
+        },
+        "vertical_ramp": {
+          "mean_abs_activation": 0.8847101330757141,
+          "spatial_gradient_magnitude": 0.009362000040709972,
+          "sobel_response": 0.05718009173870087
+        },
+        "horizontal_ramp": {
+          "mean_abs_activation": 0.8881096839904785,
+          "spatial_gradient_magnitude": 0.008767564781010151,
+          "sobel_response": 0.051541078835725784
+        },
+        "diagonal_ramp": {
+          "mean_abs_activation": 0.8844332098960876,
+          "spatial_gradient_magnitude": 0.011248473078012466,
+          "sobel_response": 0.06438127905130386
+        },
+        "thin_vertical_line": {
+          "mean_abs_activation": 0.8838332295417786,
+          "spatial_gradient_magnitude": 0.009985563345253468,
+          "sobel_response": 0.05322891101241112
+        },
+        "checker_edge_texture": {
+          "mean_abs_activation": 0.8516907691955566,
+          "spatial_gradient_magnitude": 0.02401503175497055,
+          "sobel_response": 0.06503470242023468
+        }
+      },
+      "edge_response_mean": 0.8819548338651657,
+      "flat_response": 0.8843899369239807,
+      "edge_selectivity_index": -0.0013786114121569241
+    },
+    {
+      "layer": "model.levels.1.blocks.2.conv2",
+      "class": "Conv2d",
+      "stimuli": {
+        "flat": {
+          "mean_abs_activation": 0.8813584446907043,
+          "spatial_gradient_magnitude": 0.004923968575894833,
+          "sobel_response": 0.04053690284490585
+        },
+        "horizontal_step": {
+          "mean_abs_activation": 0.8795462846755981,
+          "spatial_gradient_magnitude": 0.007523721549659967,
+          "sobel_response": 0.05602271109819412
+        },
+        "vertical_step": {
+          "mean_abs_activation": 0.879431962966919,
+          "spatial_gradient_magnitude": 0.006966718006879091,
+          "sobel_response": 0.052896659821271896
+        },
+        "diagonal_45_step": {
+          "mean_abs_activation": 0.8798287510871887,
+          "spatial_gradient_magnitude": 0.008281656540930271,
+          "sobel_response": 0.059681326150894165
+        },
+        "diagonal_135_step": {
+          "mean_abs_activation": 0.8759182095527649,
+          "spatial_gradient_magnitude": 0.00891492422670126,
+          "sobel_response": 0.056969381868839264
+        },
+        "vertical_blur_sigma_1": {
+          "mean_abs_activation": 0.8815381526947021,
+          "spatial_gradient_magnitude": 0.009693218395113945,
+          "sobel_response": 0.07678461074829102
+        },
+        "vertical_blur_sigma_3": {
+          "mean_abs_activation": 0.879784345626831,
+          "spatial_gradient_magnitude": 0.010769017972052097,
+          "sobel_response": 0.07788532227277756
+        },
+        "vertical_blur_sigma_5": {
+          "mean_abs_activation": 0.879889726638794,
+          "spatial_gradient_magnitude": 0.009775294922292233,
+          "sobel_response": 0.06583905220031738
+        },
+        "vertical_ramp": {
+          "mean_abs_activation": 0.8816814422607422,
+          "spatial_gradient_magnitude": 0.006865121889859438,
+          "sobel_response": 0.04900538921356201
+        },
+        "horizontal_ramp": {
+          "mean_abs_activation": 0.8802549839019775,
+          "spatial_gradient_magnitude": 0.006444059312343597,
+          "sobel_response": 0.049727682024240494
+        },
+        "diagonal_ramp": {
+          "mean_abs_activation": 0.8875497579574585,
+          "spatial_gradient_magnitude": 0.009054581634700298,
+          "sobel_response": 0.06026837229728699
+        },
+        "thin_vertical_line": {
+          "mean_abs_activation": 0.8769184350967407,
+          "spatial_gradient_magnitude": 0.006983236875385046,
+          "sobel_response": 0.04867823049426079
+        },
+        "checker_edge_texture": {
+          "mean_abs_activation": 0.8915340304374695,
+          "spatial_gradient_magnitude": 0.03059043549001217,
+          "sobel_response": 0.08713545650243759
+        }
+      },
+      "edge_response_mean": 0.8786813020706177,
+      "flat_response": 0.8813584446907043,
+      "edge_selectivity_index": -0.0015210694105126904
+    }
+  ],
+  "figures": [
+    "analysis/results/figures/stem_filters.png",
+    "analysis/results/figures/stem_filter_responses.png",
+    "analysis/results/figures/activation_map_stage1.png",
+    "analysis/results/figures/change_sensitivity_stage1.png",
+    "analysis/results/figures/activation_map_stage2.png",
+    "analysis/results/figures/change_sensitivity_stage2.png",
+    "analysis/results/figures/activation_map_stage3.png",
+    "analysis/results/figures/change_sensitivity_stage3.png",
+    "analysis/results/figures/activation_map_stage4.png",
+    "analysis/results/figures/change_sensitivity_stage4.png"
+  ]
+}
